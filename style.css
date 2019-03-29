@@ -1,1 +1,26 @@
-body {    margin: 30px;    padding: 20px;}#title {    text-align: center;}#nav {    position: fixed;    top: 0;    width: 100%;}#nav li {    display: inline-block;}#nav ul {    text-align: center;    background-color: f1f1ff;}#nav a {    display: inline-block;    padding: 10px;    text-decoration: none;}
+body {
+  margin: 30px;
+  padding: 20px;
+}
+
+#title {
+  text-align: center;
+  }
+
+#nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#nav li {
+  display: inline-block;
+}
+#nav ul {
+  text-align: center;
+  background-color: f1f1ff;
+}
+#nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
