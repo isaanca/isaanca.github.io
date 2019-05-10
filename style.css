@@ -1,11 +1,15 @@
+#title {
+  text-align: center;
+}
+
 body {
-  margin: 40px;
+  margin: 30px;
   margin-top: 120px;
   font-family: serif;
 }
 
-#title {
-  text-align: center;
+a {
+  
 }
 
 /* navigation bar style */
@@ -17,10 +21,6 @@ body {
   width: 100%;
   text-align: center;
   background-color: white;
-}
-
-#nav li {
-  /* display: inline; */
 }
 
 #nav ul {
