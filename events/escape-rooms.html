@@ -14,18 +14,51 @@
 
     <p> Participants will be faced with the following puzzles: </p>
 
-    <!-- todo: make slideshow? -->
-    <h2> May 16: Chemistry </h2>
-    <p class="note"> Created by Claire G, Maya M, Aidan P, Evan S, and Annie Z </p>
-    <p> <strong>Lise Meitner</strong> has discovered nuclear fission, but her male colleague is going to receive all of the credit for it! It is your job to send Lise Meitner's papers documenting her discovery to the Nobel Prize committee, so that she can get the recognition she deserves. However, the papers with her work are stuck in a locked box! Can you use Meitner's lab notes and your knowledge of chemistry to crack the code before the award ceremony? </p>
+    <div class="slideshow-container" style="max-width:100%">
+      <div class="slides fade slideshow">
+        <div id="title">
+          <h2> May 16: Chemistry </h2>
+          <p class="note"> Created by Claire G, Maya M, Aidan P, Evan S, and Annie Z </p>
+        </div>
+        <p>
+          <strong>Lise Meitner</strong> has discovered nuclear fission, but her male colleague is going to receive all of the credit for it! It is your job to send Lise Meitner's papers documenting her discovery to the Nobel Prize committee, so that she can get the recognition she deserves. However, the papers with her work are stuck in a locked box! Can you use Meitner's lab notes and your knowledge of chemistry to crack the code before the award ceremony?
+        </p>
+      </div>
 
-    <h2> May 23: Cryptology </h2>
-    <p class="note"> Created by Kate E, Osher L, and Merritt V </p>
-    <p> Expert code-breakers, you have been summoned by the court to settle a dispute. A mysterious ship was sunk by the US Coast Guard for refusing to be searched. Canada is suing the Coast Guard for damages for the ship, its cargo, and personnel losses. Can you help <strong>Elizebeth Smith Friedman</strong> crack the codes and find the truth behind the ship? </p>
+      <div class="slides fade">
+        <div id="title">
+          <h2> May 23: Cryptology </h2>
+          <p class="note"> Created by Kate E, Osher L, and Merritt V </p>
+        </div>
+        <p>
+          Expert code-breakers, you have been summoned by the court to settle a dispute. A mysterious ship was sunk by the US Coast Guard for refusing to be searched. Canada is suing the Coast Guard for damages for the ship, its cargo, and personnel losses. Can you help <strong>Elizebeth Smith Friedman</strong> crack the codes and find the truth behind the ship?
+        </p>
+      </div>
 
-    <h2> May 30: Electrical Engineering </h2>
-    <p class="note"> Created by Daniel A, Daniel B, Molly D, and Tara S </p>
-    <p> There has bee<strong>n</strong> a blackout at Nu<strong>e</strong><strong>v</strong>a, and it is your job to us<strong>e</strong> you<strong>r</strong> en<strong>g</strong>ineering skills t<strong>o</strong> restore power! Usi<strong>n</strong>g <strong>n</strong>otes from electric<strong>a</strong>l power system analyst Edith Clarke, the first electrical en<strong>g</strong><strong>i</strong>neer to recei<strong>v</strong><strong>e</strong> a MSc degree from MIT, can <strong>y</strong><strong>o</strong><strong>u</strong> <strong>u</strong>nlock the <strong>p</strong>ower grid and restore power to Nueva? </p>
+      <div class="slides fade">
+        <div id=title>
+          <h2> May 30: Electrical Engineering </h2>
+          <p class="note"> Created by Daniel A, Daniel B, Molly D, and Tara S </p>
+        </div>
+        <p>
+          There has bee<strong>n</strong> a blackout at Nu<strong>e</strong><strong>v</strong>a, and it is your job to us<strong>e</strong> you<strong>r</strong> en<strong>g</strong>ineering skills t<strong>o</strong> restore power! Usi<strong>n</strong>g <strong>n</strong>otes from electric<strong>a</strong>l power system analyst <strong>Edith Clarke</strong>, the first electrical en<strong>g</strong><strong>i</strong>neer to recei<strong>v</strong><strong>e</strong> a MSc degree from MIT, can <strong>y</strong><strong>o</strong><strong>u</strong> <strong>u</strong>nlock the <strong>p</strong>ower grid and restore power to Nueva?
+        </p>
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <div w3-include-html="/navbar.html"></div>
+    <script src="/scripts/slideshow.js"></script>
+    <script> slideshow(); </script>
+    </div>
 
     <script src="/scripts/includeHTML.js"></script>
     <script> includeHTML(); </script>

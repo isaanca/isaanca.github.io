@@ -19,7 +19,7 @@ function showSlides(n) {
     slideIndex = 0;
   }
   if (n <= -1) {
-    slideIndex = slides.length;
+    slideIndex = slides.length-1;
   }
 
   // hides all of the slides
